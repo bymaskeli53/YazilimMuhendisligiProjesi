@@ -1,0 +1,101 @@
+body {
+  background-color: #23242a;
+  /* background-image: url(fatih-terim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  top: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.right-navbar {
+  margin-right: 4vh;
+  margin-top: 2vh;
+}
+.kayitol-box {
+  position: absolute;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  /* height: 40%; */
+  top: 50%;
+  left: 50%;
+  background-color: #2e3038;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.header-span {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin-bottom: 2vh;
+}
+
+.name-Surname {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4vh;
+}
+
+.name-Surname input {
+  margin-right: 2vh;
+}
+.ePosta input {
+  margin-bottom: 4vh;
+}
+.password-again {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4vh;
+}
+.password-again input {
+  margin-right: 2vh;
+}
+.city {
+  display: flex;
+}
+.city span {
+  color: white;
+  font-size: small;
+  margin-right: 2vh;
+}
+
+.mevkiler {
+  margin-top: 4vh;
+}
+.mevkiler label {
+  color: white;
+  font-size: small;
+  margin-right: 2vh;
+}
+
+.kayitol-gonder-button {
+  display: flex;
+  justify-content: center;
+}
+.onay span {
+  color: white;
+  font-size: small;
+  margin-right: 2vh;
+}
+.onay {
+  margin-top: 2vh;
+}

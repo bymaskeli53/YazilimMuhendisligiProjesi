@@ -15,9 +15,23 @@
     <!-- 23242a: renk  color: #e6e6e6-->
   </head>
   <body>
+    <video autoplay muted loop>
+      <source
+        src="intro-futboll.mp4"
+        type="video/mp4"
+      />
+
+      Your browser does not support the video tag.
+    </video>
+
     <header>
       <h3>Yazılım Müh. Dönem Projesi - G5</h3>
-    </header>
+      <header class="navbar">
+        <div class="right-navbar">
+          <a href="kullaici-girisi.html">Ana Sayfa</a>
+        </div>
+      </header>
+
     <section class="loginBox"  class="border-bottom-0">
         <div class="loginBoxInside">
       <div class="loginText"><p>Spor Müsabakaları Eşleştirme Projesi</p></div>
@@ -27,7 +41,7 @@
             type="text"
             id="loginNameOrSurnameInside"
             name="fName"
-            placeholder="Kullanıcı Adı"
+            placeholder="E-Posta"
           /><br />
         </form>
       </div>
@@ -42,8 +56,17 @@
       
       
       <div class="loginForgetPassword">
-        <a href="#"><h5>Şifremi Unuttum</h5></a>
-      <div class="signUp"><p>Kayıt Ol</p></div>
+        <a href="#">Şifremi Unuttum</a>
+      <div class="signUp">
+        
+        <button type="button" onclick="javascript:location.href='kayit-ol.html'">
+         Kayıt Ol
+        </button>
+        
+      
+      
+      
+      </div>
       </div>
       
       
@@ -53,6 +76,8 @@
       </div>
     </div>
     </section>
+
+    <script src="indexx.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
