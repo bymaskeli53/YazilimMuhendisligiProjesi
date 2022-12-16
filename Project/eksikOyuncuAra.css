@@ -1,0 +1,109 @@
+body {
+  background-color: #23242a;
+  /* background-image: url(fatih-terim.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; */
+  width: 100%;
+  height: 100%;
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.1;
+}
+.navbar {
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+  height: 10vh;
+}
+
+/* .navbar_profil {
+  display: flex;
+  
+  justify-content: flex-end;
+  margin-right: 3vh;
+} */
+.navbar_profil {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3vh;
+  align-items: center;
+  color: lightblue;
+}
+.navbar-geriDon {
+  width: 10%;
+  cursor: pointer;
+}
+.navbar-geriDon a {
+  text-decoration: none;
+  color: white;
+}
+.big_box {
+  width: 90%;
+  height: 70vh;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  background-color: #2e3038;
+  opacity: 1;
+  margin-top: 5vh;
+  margin-left: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.filtre {
+  width: 20%;
+  height: 65vh;
+  background-color: #666b7b;
+  border: 2px solid #23242a;
+  margin-left: -100%;
+  border-radius: 20px;
+}
+
+.sorular {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 3vh;
+  font-family: Verdana, Arial, Tahoma, Serif;
+  margin-bottom: 2vh;
+}
+.ara-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+}
+.ara-button button {
+  background-color: lightblue;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.filte-select {
+  margin-left: 3vh;
+  margin-bottom: 5vh;
+}
+.tum_musait_oyuncular {
+  width: 60%;
+  height: 65vh;
+  background-color: #666b7b;
+  border: 2px solid #23242a;
+  margin-right: -100%;
+  margin-left: 13vh;
+  border-radius: 20px;
+}
+.tum_musait_oyuncular-span {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+  font-family: Verdana, Arial, Tahoma, Serif;
+  margin-bottom: 2vh;
+}
