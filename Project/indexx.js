@@ -10,3 +10,13 @@
 //     x.style.display = "none";
 //   }
 // }
+
+// function hide_kategories_show_SQL() {
+//   document.getElementById("buttons").style.display = "none";
+//   document.getElementById("show_SQL").style.display = "block";
+// }
+// function show_kategories_hide_SQL() {
+//   document.getElementById("buttons").style.display = "block";
+//   document.getElementById("show_SQL").style.display = "none";
+//   document.getElementById("show_SQL").style.marginLeft = "4%";
+// }

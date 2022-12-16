@@ -1,0 +1,138 @@
+body {
+  background-color: #23242a;
+  /* background-image: url(fatih-terim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.1;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+  height: 10vh;
+}
+
+.navbar_selamlama {
+  color: white;
+  margin-left: 3vh;
+  justify-content: flex-start;
+}
+
+.navbar_profil {
+  color: lightblue;
+  justify-content: flex-end;
+  margin-right: 3vh;
+}
+.user_icon {
+  width: 100px;
+}
+
+.main_box {
+  position: absolute;
+  background-color: aliceblue;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  background-color: #2e3038;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  
+  border-radius: 10px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.buttons {
+display: flex;
+width: 88%;
+height: 90%;
+
+justify-content: center;
+align-items: center;
+transition: 0.7s;
+
+  /* transform: translate(-50%, -50%);
+  display: flex;
+  /* margin-top: 6vh; */
+  /* height: 50%; */
+
+  /* margin-top: 12%;
+  margin-left: 50%; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */ */
+}
+.button {
+    justify-content: space-evenly;
+    width: 20%;
+    height: 20%;
+    background-color: #2e4038;
+    flex-wrap: wrap;
+    margin: 7px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.7s;
+  
+/*
+  border-radius: 15px;
+  background-color: white;
+
+  justify-content: center;
+  align-items: center;
+  
+  flex-basis: 50%;
+  height: 90%;
+  width: 90%; */
+  color: white;
+}
+.button a{
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+  opacity: 1;
+  cursor: pointer;
+}
+.dates {
+  background-color: lightblue;
+  height: 30%;
+  width: 90%;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+.date {
+  width: 100%;
+  height: 15%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.show_SQL {
+  width: 90%;
+  height: 60%;
+  margin-left: 4%;
+  background-color: lightblue;
+  display: none;
+}
+.show_SQL_header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3vh;
+  margin-top: 3vh;
+}
