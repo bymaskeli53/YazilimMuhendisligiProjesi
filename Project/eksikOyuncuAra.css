@@ -38,6 +38,7 @@ video {
 .navbar-geriDon {
   width: 10%;
   cursor: pointer;
+  position: relative;
 }
 .navbar-geriDon a {
   text-decoration: none;
@@ -88,6 +89,7 @@ video {
 .filte-select {
   margin-left: 3vh;
   margin-bottom: 5vh;
+  position: relative;
 }
 .tum_musait_oyuncular {
   width: 60%;
