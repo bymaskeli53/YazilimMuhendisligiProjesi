@@ -79,6 +79,7 @@ video {
   display: flex;
   justify-content: center;
   margin-top: 7vh;
+  cursor: pointer;
 }
 .ara-button button {
   background-color: lightblue;

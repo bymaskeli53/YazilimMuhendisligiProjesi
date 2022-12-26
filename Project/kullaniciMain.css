@@ -3,6 +3,7 @@ body {
   /* background-image: url(fatih-terim.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
+  behavior: url(indexx.js);
 }
 video {
   position: fixed;
@@ -78,7 +79,9 @@ video {
   justify-content: space-evenly;
   width: 20%;
   height: 20%;
-  background-color: #2e4038;
+
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-wrap: wrap;
   margin: 7px;
   display: flex;
@@ -97,7 +100,10 @@ video {
   height: 90%;
   width: 90%; */
   color: white;
+  background-image: url(button-background.png);
+  opacity: 0.6;
 }
+
 .button a {
   text-decoration: none;
   color: white;
